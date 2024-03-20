@@ -4,7 +4,7 @@
   if(!isset($_SESSION['valid'])){
     // header("Location: ./home.php ");
   }
-  
+
 ?>
 <?php
 require("../common/head.php");
@@ -34,7 +34,7 @@ require("../common/head.php");
 
         <p>If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
         <div class="buttons">
-          <a href="http://localhost:3000/" class="join">Learn More From Bot</a>
+          <a href="http://localhost:3000/chat" class="join">Learn More From Bot</a>
           <a href="about.php" class="learn">Read More</a>
         </div>
       </div>

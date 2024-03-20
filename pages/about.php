@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="navbar">
         <?php require("../common/header.php"); ?>
-          
+
           <!--Profile Content-->
           <div class="buttons">
             <div class="right-links">
@@ -27,14 +27,10 @@
     <!--NavBar End-->
 
     <!--Page Content-->
-    <section class="hero-section">
-      <div class="hero" >
-        <h2>CrPC</h2>
-        <p id="text-content">
-        </p>
-      </div>
-      <div class="img">
-        <img decoding="async" id="random-image" src="" alt="Random image"  style="height: 325px;"/>
+    <section id="about" style=" height:100vh; width:100%; margin-top:80px;">
+      <div class="ipc-content" style="margin-left:50px;">
+        <h1>IPC</h1>
+        
       </div>
     </section>
     <!--Page Content End-->

@@ -1,5 +1,5 @@
 <?php
-include("../php/config.php");
+include("./php/config.php");
 if(isset($_POST['submit'])){
     $email = mysqli_real_escape_string($con,$_POST['email']);
     $password = mysqli_real_escape_string($con,$_POST['password']);
@@ -12,7 +12,8 @@ if(isset($_POST['submit'])){
         $_SESSION['username'] = $row['Username'];
         $_SESSION['age'] = $row['Age'];
         $_SESSION['id'] = $row['Id'];
-    }else{
+    }
+    else{
         // echo "<div class='message'>
         //     <p>Wrong Username or Password</p>
         //     </div> <br>";
@@ -21,7 +22,7 @@ if(isset($_POST['submit'])){
     }
     if(isset($_SESSION['valid'])){
         echo "<script>alert('Success')</script>";
-        header("Location: ../pages/home.php");
+        header("Location: http://localhost/law-with-chatbot/pages/home.php");
     }
 }
 

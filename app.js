@@ -8,6 +8,8 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
+//app.use(favicon(path.join(__dirname + '/images/ashoka.jpg')));
+
 // Sample responses from the legal chatbot
 const legalResponses = {
   greeting: "Hello! How can I assist you with legal matters?",
@@ -31,7 +33,7 @@ classifier.addDocument('good', 'good');
 classifier.addDocument('i love you', 'love');
 
 
-// language English 
+// language English
 classifier.addDocument('neighbour dog bite me what can i do', 'article_1');
 classifier.addDocument('neighbour cat bite me what can i do', 'article_2');
 classifier.addDocument('someone is repeatedly calling me', 'article_3');
@@ -58,6 +60,10 @@ classifier.save('train.json', function (err, classifier) {
 
 
 app.get('/', (req, res) => {
+  res.sendFile(__dirname + './login-page/login.php');
+});
+
+app.get('/chat', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
