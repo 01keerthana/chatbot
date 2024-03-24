@@ -1296,6 +1296,7 @@ var mav_data = []
           document.getElementById("title").innerHTML = mav_data.title
           document.getElementById("description").innerHTML = mav_data.description
         }
+        document.value = '';
       }
 
       else if(selection_element== "section_title"){
@@ -1305,6 +1306,7 @@ var mav_data = []
           document.getElementById("title").innerHTML = mav_data.section_title
           document.getElementById("description").innerHTML = mav_data.section_desc
         }
+        document.value = '';
       }
     }
     if(mav_data == "")

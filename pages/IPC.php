@@ -25,7 +25,7 @@ require("../common/head.php");
               <option value="section_title">Section-Title</option>
             </select> 
               <input class="form-control mr-sm-2" id="text" type="search" placeholder="Search" aria-label="Search" style="font-size:13px;">
-              <button  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" onclick="check()">Search</button>
+              <button  type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#myModal" onclick="check()">Search</button>
           </form>
         </div>
         <!--SearchBar End-->
@@ -41,12 +41,12 @@ require("../common/head.php");
     <section class="hero-section">
       <div class="hero" >
         <h2 style="margin-top:70px;">IPC</h2>
-        <p style="padding: 10px;">
+        <p style="text-align: justify;">
           The Indian Penal Code (IPC) is a comprehensive legal document that defines various criminal offenses and prescribes corresponding punishments within India. Enacted in 1860 during British rule, it serves as the primary statute governing criminal law in the country. The IPC covers a wide range of offenses, including theft, assault, fraud, and homicide, among others. It ensures uniformity and consistency in the application of criminal law across the nation. Through its provisions, the IPC aims to deter criminal behavior, protect the rights of individuals, and uphold justice in society. Amendments over the years have adapted the IPC to address evolving societal norms and challenges.</p>
         <p style="padding: 10px;">If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
         <div class="buttons">
           <a href="../chat_law_project/index.html" class="join">Learn More From Bot</a>
-          <a href="about.php" class="learn">Read More</1+`>
+          <a href="about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">

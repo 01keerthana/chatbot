@@ -30,16 +30,16 @@ require("../common/head.php");
     <section class="hero-section">
       <div class="hero" >
         <h2>Indian Law</h2>
-        <p id="text-content"></p>
+        <p id="text-content" style="text-align: justify;"></p>
 
-        <p>If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
+        <p style="text-align: justify;">If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
         <div class="buttons">
           <a href="http://localhost:3000/chat" class="join">Learn More From Bot</a>
           <a href="about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">
-        <img decoding="async" id="random-image" src="" alt="Random image" style="height: 325px;" />
+        <img decoding="async" id="random-image" src="" alt="Random image" style="height: 400px; width: 350px; border-radius: 10px;" />
       </div>
     </section>
     <!--Page Content End-->

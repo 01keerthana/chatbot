@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
     }
     if(isset($_SESSION['valid'])){
         echo "<script>alert('Success')</script>";
-        header("Location: http://localhost/law-with-chatbot/pages/home.php");
+        header("Location: http://localhost/aichat-test/pages/home.php");
     }
 }
 

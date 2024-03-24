@@ -11,5 +11,5 @@
     <li><a href="../pages/Articles.php">Articles</a></li>
     <li><a href="../pages/CrPc.php">CrPC</a></li>
     <li><a href="../pages/MVA.php">MVA</a></li>
-    <li><a href="../pages/about.php">About Us</a></li>
+    <li><a href="../about/index.php">About Us</a></li>
   </ul>

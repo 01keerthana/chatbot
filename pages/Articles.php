@@ -45,7 +45,7 @@ require("../common/head.php");
     <section class="hero-section">
       <div class="hero" >
         <h2 style=" margin-top:90px;">Articles</h2>
-        <p>
+        <p style="text-align: justify;">
           In Indian law, articles refer to specific provisions or sections outlined in the Constitution of India.
           These articles lay down fundamental principles, rights, and duties that govern the nation.
           They cover a wide spectrum of subjects ranging from citizenship, fundamental rights, directive principles of state policy,
@@ -55,7 +55,7 @@ require("../common/head.php");
         </p>
         <div class="buttons">
           <a href="about.php" class="learn">Read More</a>
-  `     </div>
+        </div>
       </div>
       <div class="img">
         <img src="./images/law-5" alt="hero image" />
