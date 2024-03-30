@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complient-Page</title>
     <link rel="icon" type="image/x-icon" href="../images/ashoka.png">
-    <link rel="stylesheet" href="../../css/form.css">
+    <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body style="color: black;">
   <div class="logo">
-    <p style="float:left; margin-left:15px; margin-top:20px; margin-bottom:35px; font-size:20px; "><a href="../homers.html" style="color:white; font-weight: 100; "> Home </a></p>
-</div>
+    <p style="float:left; margin-left:15px; margin-top:20px; margin-bottom:35px; font-size:20px; "><a href="../pages/homers.html" style="color:white; font-weight: 100; "> Home </a></p>
+  </div>
     <section class="vh-100">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100" style="margin: 20px;" >
@@ -23,7 +23,7 @@
                   <h1 class="mb-5">Complient Form</h1>
                   
                   <h3>YOUR DETAILS</h3>
-                    <form class="row g-3" action="../../rest-api/complient.php" method="post">
+                    <form class="row g-3" action="add.php" method="POST">
                       <div class="col-md-6" style="font-size: 16px;">
                         <label for="yourname" class="form-label">Name</label>
                         <input type="text" class="form-control" id="yourname" name="yourname" placeholder="Mention your Name" required>
@@ -36,7 +36,7 @@
 
                       <div class="col-12" style="font-size: 16px;">
                         <label for="yourAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="yourAddress" name="yourAddress" placeholder="Mention Your Address" required>
+                        <input type="text" class="form-control" id="yourAddress" name="youraddress" placeholder="Mention Your Address" required>
                       </div>
 
                       <div class="col-md-6" style="font-size: 16px;">
@@ -134,20 +134,17 @@
                         <textarea class="form-control" id="complient" name="complient" rows="4" placeholder="Brief summary of facts/allegations of the incident/complaint" required></textarea>
                       </div>
                       
-                  <div class="col-12">
-                  </br>
-                    <button type="submit" name="submit" class="btn btn-success btn-lg mt-3">Post</button>
-                  </div>
+                      <div class="btn">
+                      </br>
+                          <button class="btn btn-success">Post</button>
+                      </div>
                       
                     </form>
-
-
                 </div>  
-
               </div>
             </div>
           </div>
         </div>
-      </section>
+  </section>
 </body>
 </html>
