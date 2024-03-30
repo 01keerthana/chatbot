@@ -1,5 +1,5 @@
 <?php
       session_start();
       session_destroy();
-      header("Location: http://localhost/aichat-test/");
+      header("Location: http://localhost/aichat/");
 ?>

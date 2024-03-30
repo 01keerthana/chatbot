@@ -12,10 +12,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="style.css" />
 
     <link rel="stylesheet" href="../css/pages.css">
+    <link rel="icon" type="image/x-icon" href="imgages/ashoka.png">
 
     <!-- Boxicons CSS -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />

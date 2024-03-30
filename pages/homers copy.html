@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href="./images/ashoka.png">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+    <h2 class="logo"><a href="#">LawBot</a></h2>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" id="hamburger-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+        <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </label>
+    <ul class="links">
+      <li><a href="../pages/homers.html">Home</a></li>
+      <li><a href="../pages/IPC.php">IPC</a></li>
+      <li><a href="../pages/Articles.php">Articles</a></li>
+      <li><a href="../pages/CrPc.php">CrPC</a></li>
+      <li><a href="../pages/MVA.php">MVA</a></li>
+      <li><a href="../pages/list-complient.php">Complients</a></li>
+      <li><a href="../about/about.php">About Us</a></li>
+    </ul>
+        <!--Profile Content-->
+        <div class="buttons"> 
+          <div class="right-links">
+              
+            <a href="http://localhost/aichat/login-page/edit.php?"> <button type="button" class="btn btn-success" style="font-size: 12px; height:35px; width: 100px; margin:10px; border-radius:5px;">change profile</button> </a>
+              <a href="../php/logout.php"> <button type="button" class="btn btn-danger" style="font-size: 12px; height:35px; width: 100px; margin:10px; border-radius:5px;">Log Out</button> </a>
+          </div>
+        </div>
+        <!--Profile Content End-->
+    </nav>
+  </header>
+  <!--NavBar End-->
+
+  <!--Page Content-->
+  <section class="hero-section">
+    <div class="hero" >
+      <h2>Indian Law</h2>
+      <p id="text-content" style="font-size: 20px; text-align:justify;"></p>
+
+      <p style="text-align: justify;">If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
+      <a href="http://localhost/aichat/pages/html/complient.html"><button class="bttn btn-danger">complient here</button></a>
+    </div>
+    <div class="img">
+      <img decoding="async" id="random-image" src="" alt="Random image" style="height: 400px; width: 350px; border-radius: 10px;" />
+    </div> 
+  </section>
+  <!--Page Content End-->
+  
+    
+</body>
+
+<script src="./js/text-random.js"></script>
+<script src="./js/images-random.js"></script>
+
+<script
+      src="https://unpkg.com/react-stackai@latest/dist/vanilla/vanilla-stackai.js"
+      data-project-url="https://www.stack-ai.com/embed/8635d12e-499e-42bd-a641-9b40d0f82d45/252be267-1b55-46f6-8a25-2bbd1366b3ad/660257dd3dec21c4f34c9aec">
+    </script>
+  
+
+</html>

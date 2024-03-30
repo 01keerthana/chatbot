@@ -3806,7 +3806,7 @@ function check(){
     "chapter": 18,
     "chapter_title": "offences relating to documents and to property marks",
     "Section": 486,
-    "section_title": "Selling goods marked with a counterfeit property mark",
+    "section_title": "Selling good marked with a counterfeit property mark",
     "section_desc": "Whoever sells, or exposes, or has in possession for sale, any goods or things with a counterfeit property mark affixed to or impressed upon the same or to or upon any case, package or other receptacle in which such goods are contained, shall, unless he proves:"
   },
   {
@@ -4030,7 +4030,8 @@ function check(){
   var ipc_data = []
   var selection_element = document.getElementById("select").value;
   //document.getElementById("data").innerHTML = selection_element
-  var data =document.getElementById("text").value;
+  var datas =document.getElementById("text").value;
+  var data = datas.toLowerCase()
   //document.getElementById("data-1").innerHTML = data
   for(const elem of ipc){
       if(selection_element== "section"){
@@ -4043,7 +4044,9 @@ function check(){
       }
 
       else if(selection_element== "section_title"){
-        if(elem.section_title==data){
+        var data_titles=elem.section_title
+        var data_title=data_titles.toLowerCase()
+        if(data_title==data){
           var ipc_data=(elem)
           document.getElementById("chapter").innerHTML = ipc_data.chapter_title
           document.getElementById("title").innerHTML = ipc_data.section_title

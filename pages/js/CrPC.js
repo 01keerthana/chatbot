@@ -3155,7 +3155,8 @@ function check(){
   var crpc_data = []
   var selection_element = document.getElementById("select").value;
   //document.getElementById("data").innerHTML = selection_element
-  var data =document.getElementById("text").value;
+  var datas = document.getElementById("text").value;
+  var data = datas.toLowerCase()
   //document.getElementById("data-1").innerHTML = data
   for(const elem of crpc){
     if(selection_element== "chapter")
@@ -3170,7 +3171,7 @@ function check(){
 
     else if(selection_element== "section")
     {
-      if(elem.section==data)
+      if(elem.section == data)
       {
        var crpc_data=(elem)
        document.getElementById("title").innerHTML = crpc_data.section_title
@@ -3178,8 +3179,10 @@ function check(){
       }
     }
     else if(selection_element== "section_title"){
-      if(elem.section_title==data){
-        var crpc_data=(elem)
+      var data_titles = elem.section_title
+      var data_title = data_titles.toLowerCase()
+      if(data_title == data){
+        var crpc_data = (elem)
         document.getElementById("title").innerHTML = crpc_data.section_title
         document.getElementById("description").innerHTML = crpc_data.section_desc
       }

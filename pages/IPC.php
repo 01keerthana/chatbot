@@ -7,6 +7,7 @@
   }
 ?>
 <?php
+$set_title = "IPC";
 require("../common/head.php");
 ?>
 <!DOCTYPE html>
@@ -45,8 +46,8 @@ require("../common/head.php");
           The Indian Penal Code (IPC) is a comprehensive legal document that defines various criminal offenses and prescribes corresponding punishments within India. Enacted in 1860 during British rule, it serves as the primary statute governing criminal law in the country. The IPC covers a wide range of offenses, including theft, assault, fraud, and homicide, among others. It ensures uniformity and consistency in the application of criminal law across the nation. Through its provisions, the IPC aims to deter criminal behavior, protect the rights of individuals, and uphold justice in society. Amendments over the years have adapted the IPC to address evolving societal norms and challenges.</p>
         <p style="padding: 10px;">If you want to Know the BNS(Bharatiya Nyaya Samhita) section and others details use the chatbot.</p>
         <div class="buttons">
-          <a href="../chat_law_project/index.html" class="join">Learn More From Bot</a>
-          <a href="about.php" class="learn">Read More</a>
+          <a href="http://localhost:3000/chat" class="join">Learn More From Bot</a>
+          <a href="../about/about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">

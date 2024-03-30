@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$set_title = "MVA";
 require("../common/head.php");
 ?>
   <body>
@@ -45,7 +46,7 @@ require("../common/head.php");
         <p style="text-align: justify;">
           The Motor Vehicles Act (MVA) in Indian law serves as a comprehensive statute governing all matters related to motor vehicles and road transport. Enacted in 1988 and subsequently amended, the MVA outlines regulations pertaining to the registration, licensing, insurance, and operation of motor vehicles across the country. It establishes norms for road safety, traffic management, and vehicle standards to ensure the well-being of road users. The MVA also delineates penalties for traffic violations and offenses, aiming to deter reckless driving and promote responsible behavior on the roads. Through its provisions, the MVA plays a crucial role in regulating the burgeoning automotive sector and fostering a safe and efficient transportation ecosystem in India. Amendments and updates to the MVA reflect evolving technology, societal needs, and global best practices in road transport governance.</p>
         <div class="buttons">
-          <a href="about.php" class="learn">Read More</a>
+          <a href="../about/about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">

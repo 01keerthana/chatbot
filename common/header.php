@@ -6,10 +6,11 @@
     </svg>
   </label>
   <ul class="links">
-    <li><a href="../pages/home.php">Home</a></li>
+    <li><a href="../pages/homers.html">Home</a></li>
     <li><a href="../pages/IPC.php">IPC</a></li>
     <li><a href="../pages/Articles.php">Articles</a></li>
     <li><a href="../pages/CrPc.php">CrPC</a></li>
     <li><a href="../pages/MVA.php">MVA</a></li>
-    <li><a href="../about/index.php">About Us</a></li>
+    <li><a href="../pages/list-complient.php">Complients</a></li>
+    <li><a href="../about/about.php">About Us</a></li>
   </ul>

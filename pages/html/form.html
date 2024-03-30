@@ -1,0 +1,21 @@
+<form action="../../rest-api/edit-complient.php" method="post">
+    <div class="field input">
+        <label for="yourname">Yourname</label>
+        <input type="text" name="username" id="username" value="<?php echo $res_Uname; ?>" autocomplete="off" required>
+    </div>
+  
+    <div class="field input">
+        <label for="gender">Email</label>
+        <input type="text" name="email" id="email" value="<?php echo $res_gender; ?>" autocomplete="off" required>
+    </div>
+  
+    <div class="field input">
+        <label for="yourAddress">Age</label>
+        <input type="number" name="yourAddress" id="yourAddress" value="<?php echo $res_uaddress; ?>" autocomplete="off" required>
+    </div>
+  
+    <div class="field">
+        <input type="submit" class="btn" name="submit" value="Update" required>
+    </div>
+  
+  </form>

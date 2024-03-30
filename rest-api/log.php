@@ -14,15 +14,11 @@ if(isset($_POST['submit'])){
         $_SESSION['id'] = $row['Id'];
     }
     else{
-        // echo "<div class='message'>
-        //     <p>Wrong Username or Password</p>
-        //     </div> <br>";
-        // echo "<a href='login.php'><button class='btn'>Go Back</button>";
         echo "<script>alert('Wrong Username or Password')</script>";
     }
     if(isset($_SESSION['valid'])){
         echo "<script>alert('Success')</script>";
-        header("Location: http://localhost/aichat-test/pages/home.php");
+        header("Location: http://localhost/aichat/pages/homers.html");
     }
 }
 

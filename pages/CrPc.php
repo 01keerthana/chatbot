@@ -7,6 +7,7 @@
   }
 ?>
 <?php
+$set_title = "CRPC";
 require("../common/head.php");
 ?>
 <!DOCTYPE html>
@@ -43,7 +44,7 @@ require("../common/head.php");
         <p style="text-align: justify;">
           The Code of Criminal Procedure (CrPC) in Indian law is a comprehensive legal framework governing the procedural aspects of criminal justice administration. Enacted in 1973, it lays down procedures for the investigation, trial, and punishment of criminal offenses across the country. The CrPC delineates the powers and responsibilities of law enforcement agencies, courts, and other stakeholders involved in the criminal justice system. It ensures fair treatment of both the accused and the victims, safeguarding their rights throughout the legal process. Through its provisions, the CrPC aims to promote transparency, efficiency, and accountability in the dispensation of justice, upholding the principles of due process and the rule of law. Amendments and judicial interpretations continually adapt the CrPC to meet evolving societal needs and uphold constitutional values.</p>
         <div class="buttons">
-          <a href="about.php" class="learn">Read More</a>
+          <a href="../about/about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">

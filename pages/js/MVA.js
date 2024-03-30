@@ -1286,7 +1286,8 @@ let mva =
 var mav_data = []
   var selection_element = document.getElementById("select").value;
   //document.getElementById("data").innerHTML = selection_element
-  var data =document.getElementById("text").value;
+  var datas =document.getElementById("text").value;
+  var data = datas.toLowerCase()
   //document.getElementById("data-1").innerHTML = data
   for(const elem of mva){
       if(selection_element== "section"){
@@ -1296,17 +1297,18 @@ var mav_data = []
           document.getElementById("title").innerHTML = mav_data.title
           document.getElementById("description").innerHTML = mav_data.description
         }
-        document.value = '';
       }
 
       else if(selection_element== "section_title"){
-        if(elem.title==data){
+        var data_titles = elem.title
+       var data_title = data_titles.toLowerCase()
+        if(data_title==data){
           var mav_data=(elem)
-          document.getElementById("chapter").innerHTML = mav_data.chapter_title
-          document.getElementById("title").innerHTML = mav_data.section_title
-          document.getElementById("description").innerHTML = mav_data.section_desc
+          document.getElementById("chapter").innerHTML = mav_data.section
+          document.getElementById("title").innerHTML = mav_data.title
+          document.getElementById("description").innerHTML = mav_data.description
         }
-        document.value = '';
+
       }
     }
     if(mav_data == "")

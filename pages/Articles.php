@@ -7,6 +7,7 @@
   }
 ?>
 <?php
+$set_title = "Article";
 require("../common/head.php");
 ?>
 <!DOCTYPE html>
@@ -54,7 +55,7 @@ require("../common/head.php");
           ..Interpreted by the judiciary, articles in Indian law play a pivotal role in safeguarding the rights of citizens and ensuring the rule of law prevails.
         </p>
         <div class="buttons">
-          <a href="about.php" class="learn">Read More</a>
+          <a href="../about/about.php" class="learn">Read More</a>
         </div>
       </div>
       <div class="img">

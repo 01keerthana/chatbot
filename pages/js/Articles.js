@@ -2330,12 +2330,13 @@ function check(){
   var article_data = []
   var selection_element = document.getElementById("select").value;
   //document.getElementById("data").innerHTML = selection_element
-  var data =document.getElementById("text").value;
+  var datas = document.getElementById("text").value;
+  var data = datas.toLowerCase();
   //document.getElementById("data-1").innerHTML = data
   for(const elem of artic){
     if(selection_element== "articles")
     {
-      if(elem.article==data)
+      if(elem.article == data)
       {
         var article_data = (elem)
         document.getElementById("title").innerHTML = article_data.title;
@@ -2343,9 +2344,11 @@ function check(){
       }
     }
 
-    else if(selection_element== "articles_title")
+    else if(selection_element == "articles_title")
     {
-      if(elem.title==data)
+      var data_title = elem.title;
+      var data_titles = data_title.toLowerCase();
+      if(data_titles == data)
       {
         var article_data=(elem)
         document.getElementById("title").innerHTML = article_data.title

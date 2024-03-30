@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
     //                     <p>Profile Updated!</p>
     //                 </div> <br>";
     //             echo "<a href='../pages/home.php'><button class='btn'>Go Home</button>";
-  header("Location: ../pages/home.php"); 
+  header("Location: ../pages/homers.html"); 
   }
 
   }

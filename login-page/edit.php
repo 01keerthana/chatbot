@@ -16,7 +16,7 @@ if(!isset($_SESSION['valid'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Change Profile</title>
-
+    <link rel="icon" type="image/x-icon" href="../images/ashoka.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/pages.css">
 
@@ -28,7 +28,7 @@ if(!isset($_SESSION['valid'])){
     <!--NavBar Start-->
     <header class="header">
             <div class="logo">
-                <p style="float:left; margin:35px; "><a href="../pages/home.php" style="color:white; font-weight: 100; "> Home </a></p>
+                <p style="float:left; margin:35px; "><a href="../pages/homers.html" style="color:white; font-weight: 100; "> Home </a></p>
                     <a href="../php/logout.php"> <button type="button" id="button-logout-edit"class="btn btn-danger" style="float:right; margin: 35px; font: size 10px;font-size: 15px; height:35px; width: 100px; border-radius:5px;">Log Out</button> </a>
             </div>
     </header>
