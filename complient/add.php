@@ -27,6 +27,9 @@
     incidentstate, incidentdistrict, incidentdate, already, complient)
 	 values ('$yourname','$gender','$youraddress','$yourstate','$yourdistrict','$yourpincode','$victimsname','$victimsgender','$victimsaddress','$victimsstate','$victimsdistrict',
 	 '$victimspincode','$victimsreligion','$victimsage','$incidentplace','$incidentstate','$incidentdistrict','$incidentdate','$already','$complient' )");
-	header('location:list.php');
+    echo "<script> alert('Your complient has been sended!!...')</script>";
+	
+    
+    header('location:../pages/homers.html');
 	
 ?>

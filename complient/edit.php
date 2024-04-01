@@ -15,7 +15,6 @@
 
 </head>
 <body>
-	<form method="POST" action="update.php?id=<?php echo $id; ?>">
 		<div class='card' style='margin: 55px;'>
         	<div class = 'card-body' style='font-size:10px;'>
 				<h3>YOUR DETAILS</h3>
@@ -110,7 +109,7 @@
 
 						<div class='col-md-6' style='font-size:16px;'>
 							<label for='incidentdate'>IncidentDate</label>
-							<input type='date' class='form-control' name="already" value="<?php echo $row['already']; ?>">
+							<input type='date' class='form-control' name="incidentdate" value="<?php echo $row['incidentdate']; ?>">
 						</div>
 
 						<div class='col-md-8' style='font-size:16px;'>
@@ -123,13 +122,24 @@
 							<input type='text' class='form-control' name="complient" value="<?php echo $row['complient']; ?>" >
 						</div>
 						<div class="btn">
-							<button type="submit" name="submit" class="btn btn-success">save</button>
+							<button type="submit" name="submit" class="btn btn-success" onclick="sendEmail()">Upload</button>
 							<a href="list.php"><button class="btn btn-primary">Back</button></a>
 						</div>
 
 			</div>
 		</div>
-
-	</form>
 </body>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "rP3qMcAJxjmFRnqa_",
+      });
+   })();
+</script>
+
+<script src="./js/index.js"></script>
+
 </html>

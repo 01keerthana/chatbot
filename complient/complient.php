@@ -36,22 +36,27 @@
 
                       <div class="col-12" style="font-size: 16px;">
                         <label for="yourAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="yourAddress" name="youraddress" placeholder="Mention Your Address" required>
+                        <input type="text" class="form-control" id="youraddress" name="youraddress" placeholder="Mention Your Address" required>
                       </div>
 
                       <div class="col-md-6" style="font-size: 16px;">
                         <label for="yourstate" class="form-label">State</label>
-                        <input type="text" class="form-control" id="your-state" name="yourstate" placeholder="Mention Your State" required>
+                        <input type="text" class="form-control" id="yourstate" name="yourstate" placeholder="Mention Your State" required>
                       </div>
 
                       <div class="col-md-4" style="font-size: 16px;">
                         <label for="yourdistrict" class="form-label">District</label>
-                        <input type="text" class="form-control" id="your-district" name="yourdistrict" placeholder="Mention Your District" required>  
+                        <input type="text" class="form-control" id="yourdistrict" name="yourdistrict" placeholder="Mention Your District" required>  
                       </div>
 
                       <div class="col-md-2" style="font-size: 16px;">
                         <label for="yourpincode" class="form-label">Pincode</label>
                         <input type="number" class="form-control" id="your-pincode" name="yourpincode" placeholder="Pincode" required>
+                      </div>
+                      
+                      <div class="col-md-6" style="font-size: 16px;">
+                        <label for="phonenumber" class="form-label">PhoneNumber</label>
+                        <input type="number" class="form-control" id="phonenumber" name="yourpincode" placeholder="your moblie number" required>
                       </div>
 
                       <div class="col-md-12">
@@ -106,7 +111,7 @@
 
                       <div class="col-md-12" style="font-size: 16px;">
                         <label for="incidentplace" class="form-label">Place</label>
-                        <input type="text" class="form-control" id="incident-place" name="incidentplace" placeholder="Mention exact place of incident i.e. locality, Village, Town, City" required>
+                        <input type="text" class="form-control" id="incidentplace" name="incidentplace" placeholder="Mention exact place of incident i.e. locality, Village, Town, City" required>
                       </div>
 
                       <div class="col-md-6" style="font-size: 16px;">
@@ -121,7 +126,7 @@
 
                       <div class="col-md-6" style="font-size: 16px;">
                         <label for="incidentdate" class="form-label">Incident Date</label>
-                        <input type="date" class="form-control" id="incident-date" name="incidentdate" required>
+                        <input type="date" class="form-control" id="incidentdate" name="incidentdate" required>
                       </div>
                       
                       <div class="col-md-8" style="font-size: 16px;">
@@ -134,9 +139,9 @@
                         <textarea class="form-control" id="complient" name="complient" rows="4" placeholder="Brief summary of facts/allegations of the incident/complaint" required></textarea>
                       </div>
                       
-                      <div class="btn">
+                      <div class="d-grid gap-2 col-6 mx-auto">
                       </br>
-                          <button class="btn btn-success">Post</button>
+                          <button class="btn btn-success" onclick="sendEmail()">Post</button>
                       </div>
                       
                     </form>
@@ -147,4 +152,17 @@
         </div>
   </section>
 </body>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "rP3qMcAJxjmFRnqa_",
+      });
+   })();
+</script>
+
+<script src="./js/index.js"></script>
 </html>

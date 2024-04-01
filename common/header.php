@@ -11,6 +11,6 @@
     <li><a href="../pages/Articles.php">Articles</a></li>
     <li><a href="../pages/CrPc.php">CrPC</a></li>
     <li><a href="../pages/MVA.php">MVA</a></li>
-    <li><a href="../pages/list-complient.php">Complients</a></li>
+    <li><a href="../complient/complient.php">Complient</a></li>
     <li><a href="../about/about.php">About Us</a></li>
   </ul>
